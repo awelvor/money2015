@@ -1,0 +1,85 @@
+
+
+var mytab = new Array(
+new Array('cb', '2015-07-24', 'sapn',  0,				8.90    ,'juillet2015','2015-07-29',0),
+new Array('cb', '2015-07-24', 'sanef', 0,				14.3     ,'juillet2015','2015-07-30',0),
+new Array('cb', '2015-07-24', 'essence sp95-e10', 0,  51.41    ,'juillet2015','2015-07-27',4244963),
+new Array('cb', '2015-07-24', 'aire des gouvets', 0,	1.40    ,'juillet2015','2015-07-27',8236001),
+new Array('cb', '2015-07-25', 'essence sp98', 0,      33.89 	,	'juillet2015','2015-07-27',2305476),
+new Array('cb', '2015-07-25', 'carrefour market',0,   86.88   ,'juillet2015','2015-07-27',2305462),
+new Array('cb', '2015-07-27', 'carrefour market', 0,  28.66   ,'juillet2015','2015-07-28',2305462),
+new Array('ccsg', '2015-07-25', 'nicolas', 0,  80.00,'juillet2015','2015-07-27',0),
+new Array('cb', '2015-07-27', 'carrefour express', 0,  2.32,'juillet2015','2015-07-28',1291512),
+new Array('cb', '2015-07-28', 'cpam', 35.14,  0,'juillet2015','2015-07-28',0),
+new Array('cvi nicole', '2015-07-29', 'virement', 0,  1700,'virement','2015-07-29',0),
+new Array('ccsg', '2015-07-29', 'virement', 1700,  0,'virement','2015-07,29',0),
+new Array('ccsg', '2015-07-31', 'virement', 0,  1738.17,'virement','2015-07-31',0),
+new Array('cb', '2015-07-31', 'virement', 1738.17,0 ,'virement','2015-07-31',0),
+new Array('cb', '2015-07-29', 'paul', 0,   3.2  ,'juillet2015','2015-07-30',2431671),
+new Array('cb', '2015-07-29', 'label vie', 0,  18.95  ,'juillet2015','2015-07-30',7163830),
+new Array('cb', '2015-07-30', 'biotoday', 0, 10.5  ,'juillet2015','2015-07-31',6489956),
+new Array('cb', '2015-07-30', 'carrefour city', 0,  13.00 ,'juillet2015','2015-07-31',8338597),
+new Array('cb', '2015-07-31', 'essence sp98', 0,     25.35	,	'juillet2015','2015-08-03',2305476),
+new Array('cb', '2015-07-31', 'carrefour market',0,   80.78  ,'juillet2015','2015-08-03',2305462),
+new Array('cb', '2015-08-01', 'mano de haan',0,   18.3  ,'aout2015','2015-08-03',0),
+new Array('cb', '2015-08-03', 'pharmacie',0, 11.83  ,'aout2015','2015-08-04',6486903),
+new Array('ccsg', '2015-08-03', 'nicolas',100, 0 ,'aout2015','2015-08-03',0),
+new Array('ccsg', '2015-08-03', 'humanis',8.72, 0,'aout2015','2015-08-03',0),
+new Array('cb', '2015-08-04', 'carrefour',0, 72.41,'aout2015','2015-08-05',2300688),
+new Array('cb', '2015-08-04', 'essence sp98',0, 28.78,'aout2015','2015-08-05',2300870),
+new Array('cb', '2015-08-04', 'pharmacie',0, 7.99,'aout2015','2015-08-06',8710728),
+new Array('ccsg', '2015-08-05', 'nicolas',0, 23.50,'aout2015','2015-08-05',0),
+new Array('cb', '2015-08-06', 'carrefour market',0, 58.55,'aout2015','2015-08-07',2305462),
+new Array('cb', '2015-08-06', 'castorama',0, 5.4,'aout2015','2015-08-07',4244290),
+new Array('ccsg', '2015-08-10', 'nicolas',0, 38.0,'aout2015','2015-08-10',0),
+new Array('cb', '2015-08-10', 'essence sp98', 0, 47.37	,	'aout2015','2015-08-11',2305476),
+new Array('cb', '2015-08-10', 'carrefour market',0,   81.44 ,'aout2015','2015-08-11',2305462),
+new Array('cvi nicole', '2015-08-11', 'virement', 2000.0,  0,'virement','2015-08-11',0),
+new Array('ccsg', '2015-08-11', 'virement', 0,  2000.0,'virement','2015-08-11',0),
+new Array('cb', '2015-08-11', 'vincipark',0,  1.9,'aout2015','2015-08-12',1198359),
+new Array('cb', '2015-08-11', 'vincipark',0,   1.3 ,'aout2015','2015-08-12',1198359),
+new Array('cb', '2015-08-11', 'pain a la ligne',0, 26.7 ,'aout2015','2015-08-13',4221129),
+new Array('cb', '2015-08-11', 'paul',0, 10.2,'aout2015','2015-08-12',2431671),
+new Array('cb', '2015-08-12', 'alliage gestion',0, 12.5,'aout2015','2015-08-12',0),
+new Array('ccsg', '2015-08-13', 'humanis', 10.14,0,'aout2015','2015-08-13',0),
+new Array('cb', '2015-08-14', 'essence sp98', 0, 15.95	,	'aout2015',0,2305476),
+new Array('cb', '2015-08-14', 'carrefour market',0,   40.05,'aout2015',0,2305462),
+new Array('cb', '2015-08-14', 'biotoday',0, 13.4,'aout2015',0,6489956),
+new Array('cb', '2015-08-14', 'campanile',0,45.0,'aout2015',0,0),
+new Array('cb', '2015-08-15', 'paul',0,17.00,'aout2015',0,2431671),
+new Array('cb', '2015-08-16', 'sapn',  0,				8.90    ,'aout2015',0,0),
+new Array('cb', '2015-08-16', 'sanef', 0,				14.3     ,'aout2015',0,0),
+new Array('cb', '2015-08-16', 'essence sp95-e10',0,31.35,'aout2015',0,6343974),
+new Array('cb', '2015-08-14','parking',0,0.8,'aout2015',0,1198989)
+
+
+);
+
+var mycbid = new Array(
+new Array(0,'NULL'),
+new Array(1198359,'VINCIPARK'),
+new Array(1198989,'AFFAIRES 59LILLE'),
+new Array(1291512,'CARREFOUR EXPRESS 59290 WASQUEHAL'),
+new Array(2300688,'CARREFOUR 59WASQUEHAL'),
+new Array(2300870,'CARREFOURDAC 59WASQUEHAL'),
+new Array(2305462,'CARREFOURMARKET 59 BONDUES'),
+new Array(2305476,'CARREFOURMARKETDAC 59 BONDUES'),
+new Array(2431671,'PAUL 59MARCQ0000634'),
+new Array(4221129,'PAIN A LA LIGNE 59800 EURALILLE'),
+new Array(4244290,'CASTORAMA 59 BONDUES'),
+new Array(4244963,'ESSO STETIENNE 76'),
+new Array(6343974,'PICOTY RESEAU LA ROCHELLE 17000'),
+new Array(6486903,'PHARMACIE DE LA MARQUE 59700 MARCQ EN BAROEUL'),
+new Array(6489956,'BIOTODAY LA MADELEINE 59110'),
+new Array(7163830,'LABELVIE MARCQ EN BAROEUL'),
+new Array(8236001,'LES GOUVETS 50420 GOUVETS'),
+new Array(8338597,'CARREFOUR CITY 59 MARCQ EN BAROEUL'),
+new Array(8710728,'PHARMACIE 59 WASQUEHAL')
+
+);
+
+var mybdg = new Array(
+new Array('juillet2015'),
+new Array('aout2015'),
+new Array('virement')
+);
