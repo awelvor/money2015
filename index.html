@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>association 112</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="jquery.mobile.min.css">
+<script src="jquery.min.js"       ></script>
+<script src="jquery.mobile.min.js"></script>
+<script src="mydat.js"       ></script>
+</head>
+<body>
+<div data-role="page" id="homePage">
+<div data-role="header">
+<h1>MONEY2015</h1>
+</div>
+<div data-role="content">
+<script type="text/javascript" src="homepage.js"></script>
+<ul data-role="listview" data-inset="true">
+<li><a href="#objectifs">Operations</a></li>
+
+</ul>
+</div>
+<div data-role="footer">
+<a href="#objectifs">contacts</a>
+</div>
+</div>
+
+
+<div data-role="page" id="objectifs">
+<div data-role="header">
+<h1>Objectifs</h1>
+</div>
+<div data-role="content">
+<script type="text/javascript" src="operations.js"></script>
+</div>
+<div data-role="footer">
+<a href="#objectifs">contacts</a> 
+<a href="#homePage" data-icon="home">Accueil</a>
+
+</div>
+</div>
+
+<div data-role="page" id="listeMembres">
+<div data-role="header">
+<h1>membres</h1>
+</div>
+<div data-role="content">
+<ul data-role="listview" data-inset=true data-filter=true>
+<li data-role="list-divider">Administrateurs</li>
+<li><a href="#listeMembres.3">DUPOND Jean</a></li>
+<li> <a href="#listeMembres.3"> DUGENOU Ludivine </a> </li>
+<li> <a href="#listeMembres.3"> ESSAIDI Mohamed </a> </li>
+
+<li data-role="list-divider">Autres b&eacute;n&eacute;voles</li>
+<li> <a href="#listeMembres.3"> NGUYEN Soline </a> </li>
+<li> <a href="#listeMembres.3"> STURANGER Rosalie </a> </li>
+<li> <a href="#listeMembres.3"> MARCAT Paul </a> </li>
+<li> <a href="#listeMembres.3"> TEODI Clement </a> </li>
+</ul>
+</div>
+<div data-role="footer">
+<a href="#objectifs">contacts</a>
+
+</div>
+</div>
+
+<div data-role="page" id="listeMembres.3">
+<div data-role="header">
+<h1>DUPOND Jean</h1>
+</div>
+
+<div data-role="content">
+Jean est le président de l'association."
+</div>
+<div data-role="footer">
+<a href="#objectifs">contacts</a> 
+<a href="#homePage" data-icon="home">Accueil</a>
+</div>
+</div>
+
+</body>
+</html>
